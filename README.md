@@ -41,6 +41,7 @@ NumPy
 scikit-learn
 Matplotlib
 openpyxl (for Excel file handling)
+
 Example Usage
 Download Template: Click the "Download Template CSV" button to get a sample file with the required columns.
 Upload File: Upload your filled-out CSV or Excel file.
