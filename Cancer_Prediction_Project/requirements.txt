@@ -2,8 +2,4 @@ streamlit
 pandas
 numpy
 scikit-learn
-<<<<<<< HEAD
 matplotlib
-=======
-matplotlib
->>>>>>> d88604048729dab798110ce86aa4e5b98e205091
