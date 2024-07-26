@@ -7,9 +7,12 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, ConfusionMatrixDisplay
 import matplotlib.pyplot as plt
 import io
+import os
 
 # Load dataset
-df = pd.read_csv('breast-cancer.csv')
+script_dir = os.path.dirname(__file__)
+file_path = os.path.join(script_dir, 'breast-cancer.csv')
+df = pd.read_csv(file_path)
 
 # Map diagnosis to binary
 df['diagnosis'] = df['diagnosis'].map({'M': 1, 'B': 0})
@@ -92,9 +95,11 @@ def provide_template_download_link():
         file_name='cancer_prediction_template.csv',
         mime='text/csv'
     )
+file_path2 = os.path.join(script_dir, 'images/breast_cancer.jpg')
+file_path3 = os.path.join(script_dir, 'images/breast_cancer2.webp')
+file_path4 = os.path.join(script_dir, 'images/OIP.jpg')
 images = [
-    'images/breast_cancer.jpg',
-    'images/breast_cancer2.webp','images/OIP.jpg'
+    file_path2,file_path3,file_path4
 ]
 st.image(images, width=200)
 
