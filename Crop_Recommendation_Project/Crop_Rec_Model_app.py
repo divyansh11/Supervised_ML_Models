@@ -12,12 +12,11 @@ script_dir = os.path.dirname(__file__)
 # Define image paths
 image_path2 = os.path.join(script_dir, 'Images', 'OIP (1).jpg')
 image_path3 = os.path.join(script_dir, 'Images', 'OIP.jpg')
-image_path4 = os.path.join(script_dir, 'images', 'R.jpg')
 
 st.set_page_config(layout='wide')
 # Load images with error handling
 try:
-    images = [image_path2, image_path3, image_path4]
+    images = [image_path2, image_path3]
     st.image(images, width=200)
 except Exception as e:
     st.error(f"An error occurred while loading images: {e}")
