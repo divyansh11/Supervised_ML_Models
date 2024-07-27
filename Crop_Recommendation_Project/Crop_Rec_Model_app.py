@@ -18,7 +18,8 @@ images = [
     image_path2,image_path3,image_path4
 ]
 
-model=pickle.load(open('model.pkl','rb'))
+file_path2=os.path.join(script_dir, 'model.pkl')
+model=pickle.load(open(file_path2,'rb'))
 
 
 dict_pred= {1: 'rice',
