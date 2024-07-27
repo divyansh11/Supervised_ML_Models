@@ -2,27 +2,21 @@ Problem Statement
 The goal of this project is to build a machine learning model that can predict whether a patient has breast cancer based on features extracted from a medical dataset. The model uses a logistic regression classifier to provide predictions and insights into the likelihood of cancer diagnosis.
 
 Project Details
-Dataset
 Dataset Source: Breast Cancer Wisconsin (Diagnostic) Data Set
 Features: The dataset contains various features related to breast cancer diagnosis, including measurements of cell nuclei, texture, perimeter, area, and more.
 Target Variable: diagnosis (Malignant or Benign)
+
 Features Developed
-Model Training:
+Model Training: Trained a Logistic Regression model on the breast cancer dataset.Used feature scaling to normalize the data and improve model performance.
+Feature Selection:Implemented a correlation-based feature selection to drop highly correlated features, improving model efficiency and reducing redundancy.
+Confusion Matrix: Visualized the confusion matrix to assess the performance of the model, including metrics such as precision, recall, and F1-score.
 
-Trained a Logistic Regression model on the breast cancer dataset.
-Used feature scaling to normalize the data and improve model performance.
-Feature Selection:
-
-Implemented a correlation-based feature selection to drop highly correlated features, improving model efficiency and reducing redundancy.
-Confusion Matrix:
-
-Visualized the confusion matrix to assess the performance of the model, including metrics such as precision, recall, and F1-score.
 Streamlit Web Application:
-
 Input Handling: Users can input feature values directly or upload a CSV/Excel file with the required data.
 Model Prediction: The application predicts whether the input data indicates cancer or not.
 Results Display: Predictions are displayed in a table, and users can download the results as a CSV or Excel file.
 Downloadable Template: Provides a downloadable template file for users to fill out and upload, ensuring data is in the correct format.
+
 Features
 Data Upload: Upload a CSV or Excel file with patient data to get predictions.
 Interactive Input: Enter individual feature values through text inputs for quick predictions.
