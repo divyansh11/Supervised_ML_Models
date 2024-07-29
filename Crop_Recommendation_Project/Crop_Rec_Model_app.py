@@ -50,7 +50,7 @@ def cropPrediction(N, P, K, temp, humd, ph, rainfall):
 
 # Creating Streamlit application
 
-st.header("Crop Recommendation Model // Divyansh Sankhla")
+st.header("Agricultural Intelligence: Predictive Modeling for Crop Suitability // Divyansh Sankhla")
 
 n = st.text_input('Enter the value of N')
 p = st.text_input('Enter the value of P')
