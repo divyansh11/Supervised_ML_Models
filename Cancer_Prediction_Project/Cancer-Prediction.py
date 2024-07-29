@@ -176,10 +176,11 @@ else:
         try:
             input_data = [float(i) for i in input_data]
             result = prediction_model(input_data)
+            st.write(result)
             st.write("Information about the model")
             st.write("This is the Confusion matrix of the Model on which this Algo is Trained")
             plot_confusion_matrix(y_test, y_pred)
-            st.write("This is the Calssification report of the Model on which this Algo is Trained")
+            st.write("This is the Classification report of the Model on which this Algo is Trained")
             classification_reporting(y_test, y_pred)
         except ValueError:
             st.error("Please ensure all inputs are filled correctly and are numerical.")
