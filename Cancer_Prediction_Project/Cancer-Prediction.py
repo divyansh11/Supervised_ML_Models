@@ -87,7 +87,7 @@ def create_template_file():
 
 # Provide download link for the template
 def provide_template_download_link():
-    st.header("ML Prediction Model- Breast Cancer// Divyansh Sankhla")
+    st.header("Parametric Cancer Predictive Analytics Platform- Breast Cancer// Divyansh Sankhla")
     template_file = create_template_file()
     st.download_button(
         label="Download Template CSV",
