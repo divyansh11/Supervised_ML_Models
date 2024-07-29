@@ -4,4 +4,6 @@ The goal of this project is to build a machine learning model that can predict w
 Problem Statement 2
 Precision agriculture requires data-driven insights to help farmers make informed crop choices. Utilizing a comprehensive dataset combining rainfall, climate, and fertilizer information from India, this project aims to develop a predictive model to recommend the most suitable crops based on various agronomic parameters. By leveraging advanced machine learning techniques, the model will enhance agricultural productivity and sustainability, enabling farmers to optimize their farming strategies effectively.
 
+Problem Statement 3
+The IMDB dataset comprises 50,000 movie reviews, split equally between training and testing, for binary sentiment classification. The objective is to develop a model to accurately predict positive or negative sentiments in movie reviews. This task involves applying data preprocessing, feature extraction, and implementing classification or deep learning algorithms. The ultimate goal is to leverage these techniques to enhance sentiment analysis performance and gain insights from review trends.
 
