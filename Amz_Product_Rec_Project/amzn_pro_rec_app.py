@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 import nltk
-nltk.download('punkt')
 from nltk.stem.snowball import SnowballStemmer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -9,7 +8,6 @@ import streamlit as st
 from PIL import Image
 import os
 
-# Download the 'punkt' tokenizer model if not already available
 nltk.download('punkt')
 
 
