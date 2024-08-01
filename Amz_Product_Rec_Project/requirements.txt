@@ -2,6 +2,5 @@ pandas
 numpy
 nltk
 scikit-learn
-punkt
 streamlit
 Pillow
