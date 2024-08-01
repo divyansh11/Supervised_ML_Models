@@ -6,9 +6,12 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import streamlit as st
 from PIL import Image
-
+import os 
 # To read the data
-df=pd.read_csv('amazon_product.csv')
+script_dir = os.path.dirname(__file__)
+file_path = os.path.join(script_dir, 'amazon_product.csv')
+
+df=pd.read_csv(file_path)
 
 df.drop('id',axis=1,inplace=True)
 
@@ -37,8 +40,10 @@ def search_product(query):
     res=df.sort_values(by=['similarity'],ascending=False).head(15)[['Title','Description','Category']]
     return res
 
+
+file_path2 = os.path.join(script_dir, 'amazon_rec.png')
 st.set_page_config(layout='centered')
-img=Image.open('amazon_rec.png')
+img=Image.open(file_path2)
 st.image(img,width=400)
 
 st.header('Scalable Amazon Recommendations via Matrix Factorization and NLTK Text Analysis// Divyansh Sankhla')

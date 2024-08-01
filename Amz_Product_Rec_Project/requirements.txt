@@ -1,5 +1,4 @@
+sklearn
 streamlit
-pandas
-numpy
 nltk
-PIL
+scikit-learn
