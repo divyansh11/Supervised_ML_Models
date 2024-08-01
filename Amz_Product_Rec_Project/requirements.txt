@@ -1,4 +1,5 @@
-nltk.download('punkt')
+
 streamlit
 nltk
 scikit-learn
+nltk.download('punkt')
