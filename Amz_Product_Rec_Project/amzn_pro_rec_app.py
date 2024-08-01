@@ -7,18 +7,13 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import streamlit as st
 from PIL import Image
-<<<<<<< HEAD
 import os
 
 # Download the 'punkt' tokenizer model if not already available
 nltk.download('punkt')
 
-# File paths
-=======
-import os 
 
 # To read the data
->>>>>>> refs/remotes/origin/master
 script_dir = os.path.dirname(__file__)
 file_path = os.path.join(script_dir, 'amazon_product.csv')
 file_path2 = os.path.join(script_dir, 'amazon_rec.png')

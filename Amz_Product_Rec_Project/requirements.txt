@@ -2,9 +2,6 @@ pandas
 numpy
 nltk
 scikit-learn
-<<<<<<< HEAD
 punkt
-=======
 streamlit
 Pillow
->>>>>>> refs/remotes/origin/master
