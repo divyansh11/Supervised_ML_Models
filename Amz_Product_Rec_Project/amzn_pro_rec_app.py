@@ -9,13 +9,6 @@ import streamlit as st
 from PIL import Image
 import os 
 
-def download_nltk_data():
-    try:
-        nltk.data.find('tokenizers/punkt')
-    except LookupError:
-        nltk.download('punkt')
-
-download_nltk_data()
 # To read the data
 script_dir = os.path.dirname(__file__)
 file_path = os.path.join(script_dir, 'amazon_product.csv')
