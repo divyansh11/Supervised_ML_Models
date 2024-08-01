@@ -7,6 +7,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 import streamlit as st
 from PIL import Image
 import os 
+
+nltk.download('punkt')
 # To read the data
 script_dir = os.path.dirname(__file__)
 file_path = os.path.join(script_dir, 'amazon_product.csv')
