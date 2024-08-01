@@ -2,3 +2,4 @@ sklearn
 streamlit
 nltk
 scikit-learn
+punkt
