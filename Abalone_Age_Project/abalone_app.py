@@ -3,7 +3,6 @@ import pickle
 import pandas as pd 
 import numpy as np 
 import os 
-from PIL import Image
 
 # Directory of files
 script_dir = os.path.dirname(__file__)
