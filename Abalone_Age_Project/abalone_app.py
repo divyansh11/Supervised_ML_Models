@@ -13,7 +13,7 @@ model=pickle.load(open(file_path,'rb'))
 
 st.set_page_config(layout='centered')
 st.image(image=img_path,width=200)
-st.header('Abalone Chrono-Prediction Using Regression Models')
+st.header('Abalone Chrono-Prediction Using Regression Models // Divyansh Sankhla')
 
 # Prediction Model
 
