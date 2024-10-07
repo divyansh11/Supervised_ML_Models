@@ -3,3 +3,8 @@ langchain
 pypdf
 faiss-cpu
 boto3
+langchain_community
+BedrockEmbeddings
+Bedrock
+PromptTemplate
+RetrievalQA
