@@ -3,7 +3,7 @@ langchain
 pypdf
 faiss-cpu
 boto3
-langchain_community
+# langchain_community
 BedrockEmbeddings
 Bedrock
 PromptTemplate
