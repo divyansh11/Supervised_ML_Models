@@ -75,7 +75,7 @@ def get_response(llm,vectorstore, question ):
 
 ## main method
 def main():
-    st.header("AWS Bedrock integration with LLM for PDF Summarization- Divyansh")
+    st.header("Project PDFChatSphere- chat-based interaction with PDF documents using AWS Bedrock and RAG by Divyansh")
 
     load_index()
 
