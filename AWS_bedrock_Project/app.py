@@ -9,7 +9,7 @@ s3_client = boto3.client("s3")
 bucket_name="divyansh-bedrock"
 ## Bedrock
 from langchain_community.embeddings import BedrockEmbeddings
-from langchain.llms.bedrock import Bedrock
+from langchain_community.llms import Bedrock
 
 ## prompt and chain
 from langchain.prompts import PromptTemplate
